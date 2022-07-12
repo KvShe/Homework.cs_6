@@ -4,13 +4,11 @@
 
 Console.Write("Сколько чисел будешь вводить?\n");
 int size = 0;
-int[] array = new int[size];
 int count = 0;
-
 try
 {
     size = EnterNumber(size);
-    array = new int[size];
+    int[] array = new int[size];
     for (int i = 0; i < size; i++)
     {
         System.Console.WriteLine($"\nEnter number № {i + 1}");
